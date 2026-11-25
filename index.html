@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Estación Meteorológica Automática - Colegio Secundario N° 5085 "Dr. Mariano Moreno" (Enlace Ecowitt Directo)</title>
+  <title>Estación Meteorológica Automática - La Charqueada (Enlace Ecowitt Directo)</title>
   
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -57,16 +57,16 @@
         <img src="./logo_inta.png" onerror="this.onerror=null; this.src='https://raw.githubusercontent.com/intasalta/emas/main/logo_inta.png';" alt="Logo INTA" class="h-14 bg-white p-1 rounded-lg shadow-md transition-transform hover:scale-105">
         <div>
           <h1 class="text-lg sm:text-xl font-bold tracking-tight">Estación Meteorológica Automática</h1>
-          <p class="text-blue-200 text-xs font-medium">Colegio Secundario N° 5085 "Dr. Mariano Moreno" • Gral. Güemes - Salta</p>
+          <p class="text-blue-200 text-xs font-medium">La Charqueada • Dpto. Anta, J. V. González - Salta</p>
         </div>
       </div>
 
       <div class="flex items-center gap-3">
         <div class="hidden sm:block text-right text-xs bg-black/20 backdrop-blur-md p-2.5 rounded-xl border border-white/10">
           <p class="font-semibold text-blue-100 flex items-center justify-end gap-1">
-            <i data-feather="map-pin" class="h-3.5 w-3.5 text-sky-300"></i> Lat -24.6708 | Long -65.0498
+            <i data-feather="map-pin" class="h-3.5 w-3.5 text-sky-300"></i> Lat -24.5066 | Long -63.6908
           </p>
-          <p class="text-blue-200 text-[11px] mt-0.5">Sarmiento 351 • Estación Ecowitt (ID: 364053)</p>
+          <p class="text-blue-200 text-[11px] mt-0.5">Dpto. Anta • Estación Ecowitt Daza (ID: 370040)</p>
         </div>
 
         <button id="theme-toggle" type="button" aria-label="Cambiar Tema" class="p-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-blue-100 border border-white/20 transition-all focus:outline-none focus:ring-2 focus:ring-white/50">
@@ -88,11 +88,11 @@
             </a>
 
             <!-- Descarga de datos XLS diarios -->
-            <a id="btn-download-xls" href="https://raw.githubusercontent.com/intasalta/daza/main/364053_daily_station_data.xls" target="_blank" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-500/20 hover:bg-emerald-500/30 text-emerald-300 border border-emerald-500/30 font-semibold transition-all shadow-sm" title="Descargar datos diarios en formato XLS">
+            <a id="btn-download-xls" href="https://raw.githubusercontent.com/intasalta/daza/main/370040_daily_station_data.xls" target="_blank" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-500/20 hover:bg-emerald-500/30 text-emerald-300 border border-emerald-500/30 font-semibold transition-all shadow-sm" title="Descargar datos diarios en formato XLS">
               <i data-feather="download" class="h-3.5 w-3.5 text-emerald-300"></i> Descargar Datos (XLS)
             </a>
 
-            <a id="btn-download-csv" href="https://raw.githubusercontent.com/intasalta/daza/main/364053_daily_station_data.csv" target="_blank" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/10 hover:bg-white/20 text-blue-200 transition-all shadow-sm" title="Descargar datos en formato CSV">
+            <a id="btn-download-csv" href="https://raw.githubusercontent.com/intasalta/daza/main/370040_daily_station_data.csv" target="_blank" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/10 hover:bg-white/20 text-blue-200 transition-all shadow-sm" title="Descargar datos en formato CSV">
               <i data-feather="file-text" class="h-3.5 w-3.5"></i> CSV
             </a>
           </div>
@@ -144,7 +144,7 @@
         </div>
 
         <!-- Botón de acceso directo al servidor oficial Ecowitt -->
-        <a href="https://www.ecowitt.net/home/share?authorize=5MMNHG&device_id=YkliaG1nckQ4RFlBZWE5YWFRWEMrZz09" target="_blank" rel="noopener" class="flex items-center gap-2 text-xs text-slate-700 dark:text-slate-200 bg-emerald-500/10 hover:bg-emerald-500/20 px-3 py-1.5 rounded-xl border border-emerald-500/30 transition shadow-sm font-semibold" title="Abrir panel oficial en vivo en Ecowitt sin iniciar sesión">
+        <a href="https://www.ecowitt.net/home/share?authorize=123DE0&device_id=bHRjQndWMmNTR2lnV1llNFczOW9TUT09" target="_blank" rel="noopener" class="flex items-center gap-2 text-xs text-slate-700 dark:text-slate-200 bg-emerald-500/10 hover:bg-emerald-500/20 px-3 py-1.5 rounded-xl border border-emerald-500/30 transition shadow-sm font-semibold" title="Abrir panel oficial en vivo en Ecowitt sin iniciar sesión">
           <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
           <i data-feather="wifi" class="h-3.5 w-3.5 text-emerald-500"></i>
           <span>Servidor Ecowitt Conectado</span>
@@ -626,7 +626,7 @@
         </div>
         <div>
           <h3 class="text-xl font-bold text-slate-900 dark:text-white">¿Quiénes Somos?</h3>
-          <p class="text-xs text-slate-500 dark:text-slate-400">Colegio Secundario n° 5085 "Doctor Mariano Moreno" - INTA Salta</p>
+          <p class="text-xs text-slate-500 dark:text-slate-400">Estación Meteorológica Automática "La Charqueada" - Saltagro S.A. / INTA Salta</p>
         </div>
       </div>
 
@@ -635,33 +635,22 @@
         <div>
           <h4 class="font-semibold text-slate-800 dark:text-slate-100 mb-1">Origen de la Estación</h4>
           <p class="mb-2">
-            La Estación Meteorológica Automática (EMA) pertenece al <b>Colegio Secundario n° 5085 "Doctor Mariano Moreno"</b>, ubicado en la localidad de <b>General Güemes</b>, Provincia de Salta. Forma parte de la red agroclimática en articulación técnica con el <b>INTA (Instituto Nacional de Tecnología Agropecuaria - EEA Salta)</b>.
+            La Estación Meteorológica Automática (EMA) pertenece a <b>Saltagro S.A.</b>, empresa dedicada principalmente a la producción agrícola y ganadera, así como a la comercialización de productos agropecuarios. Se encuentra ubicada en el establecimiento <b>La Charqueada</b>, departamento Anta, municipio de Joaquín V. González, Provincia de Salta, formando parte de la red agroclimática en articulación técnica con el <b>INTA (Instituto Nacional de Tecnología Agropecuaria - EEA Salta)</b>.
           </p>
           <div class="text-xs bg-slate-50 dark:bg-slate-900/50 p-3 rounded-lg border border-slate-100 dark:border-slate-800 space-y-1">
-            <p><b>Institución:</b> Colegio Secundario n° 5085 "Doctor Mariano Moreno"</p>
-            <p><b>Dirección:</b> Sarmiento 351, General Güemes, Provincia de Salta</p>
-            <p><b>Coordenadas:</b> Lat. -24.670773° | Long. -65.049790°</p>
-            <p><b>Equipamiento:</b> Estación Meteorológica Automática Ecowitt (ID: 364053) con sensores de temperatura, humedad, presión, lluvia, velocidad y dirección de viento, radiación solar y radiación ultravioleta (UV).</p>
+            <p><b>Establecimiento:</b> La Charqueada</p>
+            <p><b>Titular:</b> Saltagro S.A. (Producción agrícola, ganadera y comercialización de productos agropecuarios)</p>
+            <p><b>Ubicación:</b> Departamento Anta, municipio de Joaquín V. González, Provincia de Salta</p>
+            <p><b>Coordenadas:</b> Lat. -24.506617° | Long. -63.690828°</p>
+            <p><b>Equipamiento:</b> Estación Meteorológica Automática Daza / Ecowitt (ID: 370040) con sensores de temperatura, humedad, presión barométrica, lluvia, velocidad y dirección de viento, radiación solar y radiación ultravioleta (UV).</p>
           </div>
-        </div>
-
-        <hr class="border-slate-100 dark:border-slate-700/60">
-
-        <div>
-          <h4 class="font-semibold text-slate-800 dark:text-slate-100 mb-1">Aplicación e Impacto Agroeducativo</h4>
-          <p class="mb-2">
-            <b>Uso Pedagógico:</b> Los docentes y estudiantes del Colegio Secundario N° 5085 utilizan los datos registrados en tiempo real para actividades curriculares, proyectos de ciencias naturales, física, geografía ambiental y robótica aplicada.
-          </p>
-          <p>
-            <b>Apoyo al Sector Productivo Local:</b> Brinda información meteorológica precisa para el Valle de Siancas y el departamento General Güemes, asistiendo a productores agrícolas, hortícolas y ganaderos en el monitoreo de heladas, balances hídricos y condiciones óptimas para labores de campo.
-          </p>
         </div>
 
         <div class="p-4 bg-slate-50 dark:bg-slate-900/50 rounded-xl border border-slate-100 dark:border-slate-800 space-y-1">
           <p class="text-xs font-semibold text-slate-700 dark:text-slate-200">Contacto Institucional:</p>
-          <p class="text-xs font-medium">Colegio Secundario n° 5085 "Doctor Mariano Moreno"</p>
-          <p class="text-xs text-slate-500 dark:text-slate-400">Sarmiento 351, General Güemes (Salta)</p>
-          <p class="text-xs text-sky-600 dark:text-sky-400 font-semibold mt-1">INTA EEA Salta / Red de Estaciones Meteorológicas</p>
+          <p class="text-xs font-medium">Estación Experimental Agropecuaria Salta - INTA</p>
+          <p class="text-xs text-slate-500 dark:text-slate-400">Ruta Nacional 68 Km 172, Cerrillos, Salta</p>
+          <p class="text-xs text-sky-600 dark:text-sky-400 font-semibold mt-1">Red de Estaciones Meteorológicas Agropecuarias</p>
         </div>
       </div>
 
@@ -692,8 +681,8 @@
     // =========================================================================
     // 1. CONFIGURACIÓN DE ENLACES
     // =========================================================================
-    const PRIMARY_CSV_URL = "https://raw.githubusercontent.com/intasalta/daza/main/364053_daily_station_data.csv";
-    const FALLBACK_CSV_URL = "364053_daily_station_data.csv";
+    const PRIMARY_CSV_URL = "https://raw.githubusercontent.com/intasalta/daza/main/370040_daily_station_data.csv";
+    const FALLBACK_CSV_URL = "370040_daily_station_data.csv";
     const SAMPLE_CSV_URL = "sample_daza.csv";
 
     let datosCompletos = [];
@@ -1522,8 +1511,8 @@
       const bars = rows.map(r => r.barAbs);
 
       const validBars = bars.filter(v => v !== null && v > 500);
-      const minBar = validBars.length ? Math.min(...validBars) : 900;
-      const maxBar = validBars.length ? Math.max(...validBars) : 960;
+      const minBar = validBars.length ? Math.min(...validBars) : 940;
+      const maxBar = validBars.length ? Math.max(...validBars) : 1000;
 
       const lastBar = validBars.length ? validBars[validBars.length - 1] : null;
       const badge = document.getElementById('badge-bar-val');
